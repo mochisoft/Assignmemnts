@@ -19,7 +19,8 @@ def get_month_days(x):
 def generateTemp():
 
     month_list=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
-    month_index=[1,2,3,4,5,6,7,8,9,10,11,12]
+    month_index=[i+1 for i in range(len(month_list))]
+
     avg_year_temp=[]
 
     for i in range(len(month_list)):
