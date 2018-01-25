@@ -103,4 +103,4 @@ def prediction(test_dataset,c,m,x_col,y_col):
 
 
 if __name__ == '__main__':
-    linearRegressionExample("File_path.csv",0,1)
+    linearRegressionExample("File_path.csv",x_col_rownum,y_col_rownum)
